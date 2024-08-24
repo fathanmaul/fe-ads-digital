@@ -2,32 +2,134 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --primary-color: #3366ff;
+    --primary-color-dark: #2a4dbd;
+    --background-color: #ecf2fa;
+    --dark-background-color: #121212;
+    --dark-on-background-color: #ffffff;
+    --dark-base-color: #202020;
+    --on-primary-color: #ffffff;
+    --on-background-color: #000000;
+    --warning-color: #ffb020;
+    --danger-color: #D14343;
+    --success-color: #2ECC71;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  ul.pricing > li {
+    @apply flex gap-2 items-center;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  body {
+    @apply bg-[var(--background-color)] dark:bg-[var(--dark-background-color)] w-full;
   }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-800 dark:text-white;
+  }
+
+  .text-primary {
+    @apply text-[var(--primary-color)] dark:text-white;
+  }
+
+  .card {
+    @apply bg-white dark:bg-[var(--dark-base-color)] shadow-xl rounded-xl px-[2rem] py-[4rem];
+  }
+
+  .btn {
+    @apply px-4 py-3 rounded-xl transition-all duration-200 bg-gray-100 hover:bg-gray-200 dark:bg-dark dark:hover:bg-dark dark:text-white;
+  }
+
+  .text-on-dark {
+    @apply dark:text-[var(--dark-background-color)];
+  }
+
+  .btn:active {
+    @apply transform scale-95;
+  }
+
+  .btn-primary {
+    @apply bg-[#3366FF] border border-[#3366FF] outline-none text-white hover:bg-[#2a4dbd] dark:bg-primary;
+  }
+
+  .btn-warning {
+    @apply bg-[var(--warning-color)] border border-[var(--warning-color)] text-white hover:bg-[#E49D1B] dark:bg-[var(--warning-color)];
+  }
+
+  .btn-outline {
+    @apply bg-white border border-[#3366FF] text-[#3366FF] hover:bg-[#3366FF] dark:hover:bg-[#3366FF] hover:text-white dark:bg-transparent;
+  }
+
+  .input {
+    @apply bg-white border border-gray-300 dark:bg-[var(--dark-background-color)] dark:border-none dark:text-white rounded-md px-4 py-3;
+  }
+  .input-error {
+    @apply border-red-500;
+  }
+
+  .input:focus {
+    @apply outline-none;
+  }
+
+  .text-error {
+    @apply text-red-500 text-sm;
+  }
+
+  .text-warning {
+    @apply text-[var(--warning-color)];
+  }
+
+  .text-success {
+    @apply text-[var(--success-color)];
+  }
+
+  .text-danger{
+    @apply text-[var(--danger-color)];
+  }
+
+  select {
+    @apply bg-white border dark:bg-[var(--dark-background-color)] dark:text-white dark:border-none border-gray-300 rounded-md p-1;
+  }
+
+  select:focus {
+    @apply outline-none;
+  }
+
+  .bg-primary {
+    @apply bg-[var(--primary-color)] dark:bg-[var(--primary-color-dark)];
+  }
+
+  .bg-danger {
+    @apply bg-[var(--danger-color)];
+  }
+
+  .bg-success {
+    @apply bg-[var(--success-color)];
+  }
+
+  .bg-dark-base {
+    @apply bg-[var(--dark-base-color)];
+  }
+
+  .bg-dark {
+    @apply bg-[var(--dark-background-color)];
+  }
+
+  .fill-primary {
+    @apply fill-[var(--primary-color)];
+  }
+
 }

@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render login form 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="get-started"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="lg:min-h-[740px] flex flex-col justify-center mt-36 w-full pb-10 lg:pb-0"
+          >
+            <div
+              class="flex flex-col-reverse lg:flex-row justify-between items-center"
+            >
+              <div
+                class="w-full lg:max-w-lg flex flex-col gap-6"
+              >
+                <h2
+                  class="font-extrabold text-[34px]"
+                >
+                  Elevate Your Messaging Efficiency with Our Innovative Admin Tools
+                </h2>
+                <p>
+                  Selamat datang di Fowardin! Pengelolaan pesan Anda menjadi lebih mudah dengan Admin Tools kami. Tingkatkan komunikasi Anda dan pelanggan dengan fitur pesan otomatis. Menyimpan kontak menjadi lebih praktis dengan fitur sinkronasi Google Concact. Dapatkan kendali penuh pesan dengan manajemen konten yang praktis.
+                </p>
+                <button
+                  class="btn bg-[var(--dark-background-color)] hover:bg-[var(--dark-background-color)] w-fit px-0 py-0"
+                  type="button"
+                >
+                  <div
+                    class="flex flex-row items-center gap-2 h-full"
+                  >
+                    <div
+                      class="text-white flex-1 flex items-center justify-center px-5 py-3 ml-4"
+                    >
+                      Daftar Sekarang
+                    </div>
+                    <div
+                      class="text-white flex items-center justify-center py-3 px-5 border-l border-white"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div
+                class="lg:w-full max-w-2xl relative lg:left-20 overflow-hidden"
+              >
+                <img
+                  alt=""
+                  class="relative w-[300px] lg:w-fit top-20 lg:left-0 dark:shadow-custom-white dark:bg-transparent"
+                  data-nimg="1"
+                  decoding="async"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fassets%2Fthumbnail.png&w=1080&q=75"
+                  srcset="/_next/image?url=%2Fassets%2Fthumbnail.png&w=640&q=75 1x, /_next/image?url=%2Fassets%2Fthumbnail.png&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+                <img
+                  alt=""
+                  class="relative -top-20 lg:-top-28 left-8 lg:left-14"
+                  data-nimg="1"
+                  decoding="async"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fassets%2Fthumbnail_1.png&w=1080&q=75"
+                  srcset="/_next/image?url=%2Fassets%2Fthumbnail_1.png&w=640&q=75 1x, /_next/image?url=%2Fassets%2Fthumbnail_1.png&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="get-started"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="lg:min-h-[740px] flex flex-col justify-center mt-36 w-full pb-10 lg:pb-0"
+        >
+          <div
+            class="flex flex-col-reverse lg:flex-row justify-between items-center"
+          >
+            <div
+              class="w-full lg:max-w-lg flex flex-col gap-6"
+            >
+              <h2
+                class="font-extrabold text-[34px]"
+              >
+                Elevate Your Messaging Efficiency with Our Innovative Admin Tools
+              </h2>
+              <p>
+                Selamat datang di Fowardin! Pengelolaan pesan Anda menjadi lebih mudah dengan Admin Tools kami. Tingkatkan komunikasi Anda dan pelanggan dengan fitur pesan otomatis. Menyimpan kontak menjadi lebih praktis dengan fitur sinkronasi Google Concact. Dapatkan kendali penuh pesan dengan manajemen konten yang praktis.
+              </p>
+              <button
+                class="btn bg-[var(--dark-background-color)] hover:bg-[var(--dark-background-color)] w-fit px-0 py-0"
+                type="button"
+              >
+                <div
+                  class="flex flex-row items-center gap-2 h-full"
+                >
+                  <div
+                    class="text-white flex-1 flex items-center justify-center px-5 py-3 ml-4"
+                  >
+                    Daftar Sekarang
+                  </div>
+                  <div
+                    class="text-white flex items-center justify-center py-3 px-5 border-l border-white"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="lg:w-full max-w-2xl relative lg:left-20 overflow-hidden"
+            >
+              <img
+                alt=""
+                class="relative w-[300px] lg:w-fit top-20 lg:left-0 dark:shadow-custom-white dark:bg-transparent"
+                data-nimg="1"
+                decoding="async"
+                height="500"
+                loading="lazy"
+                src="/_next/image?url=%2Fassets%2Fthumbnail.png&w=1080&q=75"
+                srcset="/_next/image?url=%2Fassets%2Fthumbnail.png&w=640&q=75 1x, /_next/image?url=%2Fassets%2Fthumbnail.png&w=1080&q=75 2x"
+                style="color: transparent;"
+                width="500"
+              />
+              <img
+                alt=""
+                class="relative -top-20 lg:-top-28 left-8 lg:left-14"
+                data-nimg="1"
+                decoding="async"
+                height="500"
+                loading="lazy"
+                src="/_next/image?url=%2Fassets%2Fthumbnail_1.png&w=1080&q=75"
+                srcset="/_next/image?url=%2Fassets%2Fthumbnail_1.png&w=640&q=75 1x, /_next/image?url=%2Fassets%2Fthumbnail_1.png&w=1080&q=75 2x"
+                style="color: transparent;"
+                width="500"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
