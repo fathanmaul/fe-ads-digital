@@ -138,7 +138,10 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-          <Button className="btn-primary px-8">Sign In</Button>
+
+          <Link href={"/login"}>
+            <Button className="btn-primary px-8 w-full">Sign In</Button>
+          </Link>
         </div>
       </div>
     </>

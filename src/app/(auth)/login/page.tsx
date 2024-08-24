@@ -103,7 +103,7 @@ export default function LoginPage() {
   };
 
   return status === "unauthenticated" ? (
-    <div className="card lg:w-[466px] shadow-xl h-fit">
+    <div className="card w-[466px] lg:w-[466px] shadow-xl h-fit">
       <div className="card-body">
         <div className="flex flex-col gap-1 items-center">
           <h2 className="font-bold text-2xl">Welcome Back!</h2>

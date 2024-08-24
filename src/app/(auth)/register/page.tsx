@@ -206,9 +206,9 @@ export default function RegisterPage() {
             </Button>
           </form>
           <div className="flex justify-center gap-1 mt-[20px]">
-            <span>Sudah punya akun?</span>
+            <span className="dark:text-white">Sudah punya akun?</span>
             <Link href="/login">
-              <p className="text-[var(--primary-color)]">Masuk di sini</p>
+              <p className="text-[var(--primary-color)] font-semibold">Masuk di sini</p>
             </Link>
           </div>
         </div>

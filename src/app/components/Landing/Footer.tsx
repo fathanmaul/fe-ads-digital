@@ -8,7 +8,7 @@ import ForwardinText from "@/app/assets/ForwardinText";
 
 export default function Footer() {
   return (
-    <section id="faq" className="bg-primary overflow-hidden">
+    <section id="faq" className="bg-primary dark:bg-neutral-900 overflow-hidden">
       <div className="lg:min-h-[1385px] relative container">
         <div className="hidden lg:block absolute -left-[1200px] -bottom-[500px] z-0 overflow-hidden opacity-20 scale-150">
           <RectangleBlob />
@@ -21,7 +21,7 @@ export default function Footer() {
 
           <div className="flex flex-col gap-8 w-full items-center mt-10">
             <div className="flex flex-row justify-center w-full max-w-lg lg:max-w-2xl">
-              <input type="text" className="input w-full" />
+              <input type="text" className="input w-full dark:bg-neutral-800" />
               <Button className="btn-primary rounded-l-none">
                 <FaSearch />
               </Button>

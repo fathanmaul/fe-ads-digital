@@ -33,7 +33,7 @@ export default function Topbar({
           </Button>
         </div>
         <div className="flex items-center">
-          <Button className="rounded-full h-10 w-10 p-0 mr-4 hidden lg:inline" onClick={toogleDarkMode}>
+          <Button className="rounded-full h-10 w-10 p-0 mr-4 " onClick={toogleDarkMode}>
             <div className="flex h-full w-full items-center justify-center">
               {
                 darkMode === Theme.Dark ? (

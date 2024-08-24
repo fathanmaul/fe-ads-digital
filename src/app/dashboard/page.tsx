@@ -237,7 +237,7 @@ function AnalyticSection() {
         <Card className="col-span-9 lg:col-span-3 border border-neutral-300">
           <h4 className="font-bold text-xl">Ringkasan hari ini</h4>
           <div className="grid grid-cols-5 gap-3 mt-3">
-            <div className="col-span-3 flex justify-between items-center w-full bg-neutral-100 dark:bg-dark rounded-lg p-4">
+            <div className="col-span-5 lg:col-span-3 flex justify-between items-center w-full bg-neutral-100 dark:bg-dark rounded-lg p-4">
               <div>
                 <p className="text-sm">Device</p>
                 <h4 className="font-bold text-xl">RMX3263</h4>
@@ -246,7 +246,7 @@ function AnalyticSection() {
                 <FaChevronDown />
               </div>
             </div>
-            <div className="col-span-2 flex justify-between items-center w-full bg-neutral-100 dark:bg-dark rounded-lg p-4">
+            <div className="col-span-5 lg:col-span-2 flex justify-between items-center w-full bg-neutral-100 dark:bg-dark rounded-lg p-4">
               <div>
                 <p className="text-sm">Aktif sejak</p>
                 <h4 className="font-bold text-xl">29.8.2023</h4>
