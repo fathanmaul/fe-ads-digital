@@ -1,5 +1,5 @@
-![MSIB](https://cloud-hall-a62.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb0569af8-ce1d-4cc8-9370-6fe0bcfc6a28%2F0aa28ee3-d360-43c8-8172-86b58486c9d5%2Fads_x_msib.png?table=block&id=e9952599-b747-4d21-a325-1b664189e3b5&spaceId=b0569af8-ce1d-4cc8-9370-6fe0bcfc6a28&width=2000&userId=&cache=v2)
-### Test Case 1 - Front End Engineer pada ADS Digital Partner X MSIB Batch 7
+
+### Test Case - Front End Engineer ADS Digital Partner X MSIB Batch 7
 # Forwardin
 Selamat datang di Fowardin! Pengelolaan pesan Anda menjadi lebih mudah dengan Admin Tools kami. Tingkatkan komunikasi Anda dan pelanggan dengan fitur pesan otomatis. Menyimpan kontak menjadi lebih praktis dengan fitur sinkronasi Google Conctact. Dapatkan kendali penuh pesan dengan manajemen konten yang praktis.
 
@@ -59,7 +59,7 @@ Aplikasi akan berjalan pada [http://localhost:3000](http://localhost:3000`).
 Untuk melihat hasil deployment aplikasi, silakan akses link berikut :
 
 
-[Fowardin](https://fe-ads-digital.vercel.app/)
+[Fowardin](https://forward-in.vercel.app/)
 
 ## Credits
 - [Next.js](https://nextjs.org/)
